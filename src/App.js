@@ -16,7 +16,7 @@ function App() {
               <article key={senyor.id} className="senyor">
                 <div className="avatar">
                   <img src={`img/${senyor.foto}`} alt={`${senyor.nombre} señalándote con el dedo`} />
-                  <span className="inicial">F</span>
+                  <span className="inicial">{senyor.nombre.charAt(0).toUpperCase()}</span>
                 </div>
                 <div className="info">
                   <h2>{senyor.nombre}</h2>
