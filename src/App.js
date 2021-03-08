@@ -1,9 +1,6 @@
-import "./App.css";
+
 import senyores from "./apuntan";
-
 function App() {
-
-
 
   return (
     <>
